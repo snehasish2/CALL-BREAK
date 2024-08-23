@@ -1,0 +1,79 @@
+body {
+   font-family: Arial, sans-serif;
+   padding: 20px;
+   background-color: green;
+   color: black;
+}
+
+h1 {
+   text-align: center;
+}
+
+#scorecard, #totals, #playerList, #winner {
+   margin-top: 20px;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: center;
+}
+
+th {
+   background-color: #f4f4f4;
+}
+
+input[type="text"], input[type="number"] {
+   margin-right: 10px;
+   padding: 5px;
+}
+
+input.bid-input, input.score-input, button {
+   width: 60px;
+}
+
+#totals, #playerList {
+   margin-top: 20px;
+}
+
+#pookieImages {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+#pookieImages img {
+   margin: 0 10px;
+   width: 100px;
+   height: auto;
+}
+
+#winner {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 24px;
+   font-weight: bold;
+   color: yellow;
+}
+
+.hidden {
+   display: none;
+}
+
+.winner-animation {
+   animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+   0% { transform: translateX(0); }
+   25% { transform: translateX(-10px); }
+   50% { transform: translateX(10px); }
+   75% { transform: translateX(-10px); }
+   100% { transform: translateX(0); }
+}
+button{ width:auto;}
